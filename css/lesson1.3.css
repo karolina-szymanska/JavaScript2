@@ -16,11 +16,11 @@ h1 {
 
 .container {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 20px auto;
     /* display: flex row wrap; */
 }
 
-.results {
+.result-container {
     display: flex;
     flex-wrap: wrap;
 }
@@ -31,7 +31,7 @@ h1 {
     background: white;
     border: 1px solid lightgrey;
     border-radius: 1rem;
-    max-width: 500px;
+    max-width: 200px;
     position: relative;
 }
 
@@ -56,12 +56,6 @@ h1 {
     border-color: green;
     color: green;
 }
-
-/*
-img {
-    width: 100%;
-}
-*/
 
 .loader {
     display: inline-block;
