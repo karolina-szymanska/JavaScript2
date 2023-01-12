@@ -48,6 +48,8 @@ function createTags(list = []) {
 }
 */
 
+/* ANSWER:
+
 import { url } from "./constants1.2/api.js";
 import { createHtml } from "./components1.2/createHtml.js";
 import { displayMessage } from "./components1.2/displayMessage.js";
@@ -69,3 +71,4 @@ async function callApi() {
 }
 
 callApi();
+*/ 
