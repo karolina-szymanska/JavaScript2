@@ -7,6 +7,11 @@ body {
     margin: 20px;
 }
 
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
 ul {
     padding: 0;
 }
@@ -18,11 +23,6 @@ li {
     margin-bottom: 2px;
     display: flex;
     justify-content: space-between;
-}
-
-.container {
-    max-width: 900px;
-    margin: 20px auto;
 }
 
 li.checked {
