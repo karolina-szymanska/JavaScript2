@@ -20,7 +20,7 @@ function addTodo() {
         todoInput.focus();
         todos.push(newTodo);
 
-        // recreate list when new todo is added
+        // recreate list when newTodo is added
         createTodoList(todos);
         saveToStorage(listKey, todos);
     }
