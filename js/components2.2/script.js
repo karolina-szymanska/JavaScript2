@@ -30,7 +30,7 @@ console.log(users);
 
 const filterUsers = (idToRemove) => users.filter((user) => user.id !== idToRemove);
 
-users = filterUsers(2);
+users = filterUsers(3);
 // Jan wrote:
 // const filteredUsers = filterUsers(2);
 
