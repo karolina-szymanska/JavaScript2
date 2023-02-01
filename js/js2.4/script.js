@@ -10,6 +10,7 @@ import Developer  from "./Developer.js";
         const url = "https://api.rawg.io/api/developers?key=69c4cc6a4ea14a90ae0de0e3f84623d1";
         const response = await fetch(url);
         const results = await response.json();
+        console.log(results);
         const developers = results.results;
         console.log(developers);
 
