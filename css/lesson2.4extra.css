@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    margin-top: 3rem;
+    background: #000;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .game {
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    margin: 0.5rem;
+  }
+  
+  .game h5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+  }
